@@ -1,0 +1,36 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #05acac;
+    height: 100%;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    -webkit-box-shadow: 0 0 16px #454545;
+    box-shadow: 0 0 16px #454545;
+    background: rgb(198, 253, 237);
+}
+.text {
+    position: relative;
+    display: block;
+    max-width: calc(100% - 160px);
+    font-family: 'poppinsbold';
+    font-size: 150px;
+    color: black;
+    font-weight: bold;
+    padding: 40px;
+    background-image: url('images/image.jpg');
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
